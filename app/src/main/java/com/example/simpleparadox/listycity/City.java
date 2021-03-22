@@ -13,6 +13,10 @@ public class City implements Comparable<City>{
         return this.city;
     }
 
+    void setCityName(String city) {
+        this.city = city;
+    }
+
     String getProvinceName(){
         return this.province;
     }
